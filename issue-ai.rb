@@ -1,8 +1,8 @@
 class IssueAi < Formula
   desc "Offline-first, AI-powered Personal Copilot for Open Source Triage"
   homepage "https://github.com/ramanathan1504/issue-ai"
-  url "https://github.com/ramanathan1504/issue-ai/releases/download/v1.0.0/issue-ai-1.0.0-jar-with-dependencies.jar"
-  sha256 "cfc1972fe9d71f8fa67861ac9d9569ec3b36f6e0454567dcbda422aa2b410a4a"
+  url "https://github.com/ramanathan1504/issue-ai/releases/download/v1.0.1/issue-ai-1.0.1.jar"
+  sha256 "90fa285720daa472d16326a620e0cffb8387c549f259bc5c3e69a93ac69134ee"
   license "Apache-2.0"
 
   # FIX: Make sure this says 21!
