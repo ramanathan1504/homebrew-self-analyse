@@ -19,7 +19,7 @@ class IssueAi < Formula
     (bin/"issue-ai").write <<~EOS
       #!/bin/bash
       export JAVA_HOME="${Formula["openjdk@17"].opt_prefix}"
-      exec "${JAVA_HOME}/bin/java" -jar "#{libexec}/issue-ai.jar" "$@"
+      exec "#{JAVA_HOME}/bin/java" -jar "#{libexec}/issue-ai.jar" "$@"
     EOS
   end
 
